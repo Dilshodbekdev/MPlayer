@@ -13,4 +13,32 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+        <item name="iconSize">24dp</item>
+    </style>
+
+    <style name="TextTabLayout" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/urbanist_medium</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BottomNavViewTextStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ToolbarTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/urbanist_regular</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
 </resources>

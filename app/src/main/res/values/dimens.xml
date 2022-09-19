@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_radius_4">4dp</dimen>
+    <dimen name="card_radius_8">8dp</dimen>
+    <dimen name="card_radius_10">10dp</dimen>
+    <dimen name="card_radius_12">12dp</dimen>
+    <dimen name="card_radius_20">20dp</dimen>
+    <dimen name="card_radius_25">25dp</dimen>
+
+
+    <dimen name="large_spacing_32">32dp</dimen>
+    <dimen name="large_spacing_48">48dp</dimen>
+    <dimen name="large_spacing_20">20dp</dimen>
+    <dimen name="normal_spacing_18">18dp</dimen>
+    <dimen name="normal_spacing_16">16dp</dimen>
+    <dimen name="normal_spacing_12">12dp</dimen>
+    <dimen name="small_spacing_11">11dp</dimen>
+    <dimen name="small_spacing_10">10dp</dimen>
+    <dimen name="small_spacing_8">8dp</dimen>
+    <dimen name="small_spacing_4">4dp</dimen>
+
+    <dimen name="elevation_size">5dp</dimen>
+    <dimen name="btn_height">60dp</dimen>
+</resources>
