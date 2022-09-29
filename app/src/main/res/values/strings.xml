@@ -13,4 +13,8 @@
     <string name="created_at">39 minutes ago</string>
     <string name="notification_channel_name">Music Channel</string>
     <string name="notification_channel_description">Shows the currently playing music</string>
+    <string name="recently_played">Recently Played</string>
+    <string name="see_all">See All</string>
+    <string name="artists">Artists</string>
+    <string name="most_played">Most Played</string>
 </resources>
