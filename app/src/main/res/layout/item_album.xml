@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/small_spacing_8">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/RoundedStyle" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_spacing_8"
+        android:ellipsize="end"
+        android:fontFamily="@font/urbanist_semi_bold"
+        android:maxLines="1"
+        android:text="Starboy"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_photo" />
+
+    <ImageButton
+        android:id="@+id/ib_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_spacing_8"
+        android:background="?actionBarItemBackground"
+        android:src="@drawable/ic_more_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_photo" />
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="1dp"
+        android:layout_marginTop="@dimen/small_spacing_8"
+        android:layout_height="14dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:id="@+id/tv_artist_name"
+        android:paddingEnd="@dimen/small_spacing_8"
+        android:text="The Weekend"
+        app:layout_constraintBottom_toBottomOf="@id/v"
+        app:layout_constraintEnd_toStartOf="@id/v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/v" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:id="@+id/tv_year"
+        android:paddingStart="@dimen/small_spacing_8"
+        android:paddingEnd="@dimen/normal_spacing_16"
+        android:text="2022"
+        app:layout_constraintBottom_toBottomOf="@id/v"
+        app:layout_constraintEnd_toStartOf="@id/ib_menu"
+        app:layout_constraintStart_toEndOf="@id/v"
+        app:layout_constraintTop_toTopOf="@id/v" />
+
+    <TextView
+        android:text="16 songs"
+        android:layout_marginTop="@dimen/small_spacing_8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
